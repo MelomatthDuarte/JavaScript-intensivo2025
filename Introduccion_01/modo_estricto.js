@@ -11,3 +11,6 @@ function suma(x, y) {
     return x + y;
 }
 
+// No permite eliminar variables funciones o argumentos de funciones
+var x = 10
+delete x;
